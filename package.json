@@ -1,0 +1,22 @@
+{
+  "name": "origasm",
+  "version": "1.0.0",
+  "description": "It does the folding",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron ."
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Callisto-Burns/Origasm.git"
+  },
+  "author": "JB&RH",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Callisto-Burns/Origasm/issues"
+  },
+  "homepage": "https://github.com/Callisto-Burns/Origasm#readme",
+  "devDependencies": {
+    "electron": "8.2.0"
+  }
+}
