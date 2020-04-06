@@ -17,5 +17,15 @@ app.on('ready', ()=> {
         },
         resizable: false
     })
+
+    mainWindow.loadURL(url.format({
+        pathname: path.join(__basedir, 'src/index.html'),
+        protocol: 'file',
+        slashes: true
+    }))
+
+    mainWindow.on('closed', () => {
+        app.quit();
+    })
 })
  
